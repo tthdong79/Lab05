@@ -1,0 +1,29 @@
+
+.b4{
+    width: 400px;
+   margin: 50px auto;
+    border: 2px solid orangered;
+}
+.box1{
+    color: yellowgreen;
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px;
+
+}
+.box2{
+    color: palevioletred;
+    font-weight: bold;
+}
+.box2{
+    padding: auto;
+}
+.box3{
+    color: red;
+    margin: 10px 0;
+}
+span{
+    color: black;
+}

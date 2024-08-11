@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1-Lab05</title>
+    <script>
+        var hoten="Tran Thanh Dong";
+        var masv="2251120008";
+        var ngaysinh="03/04/2004"
+    </script>
+</head>
+<body>
+    <h2> Thông tin cá nhân</h2>
+    <P><span> Họ tên:</span><b id="hoten">
+        <script>document.write(hoten)</script>
+    </b></P>
+    <P><span> Mã SV:</span><b id="masv">
+        <script>document.write(masv)</script>
+    </b></P>
+    <P><span> Ngày sinh: </span><b id="ns"></b></P>
+    <script>
+        document.getElementById("ns").innerHTML=ngaysinh;
+    </script>
+    
+</body>
+</html>
